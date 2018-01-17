@@ -2,6 +2,10 @@
 [![npm version](https://badge.fury.io/js/protractor-jasmine2-html-reporter.svg)](http://badge.fury.io/js/protractor-jasmine2-html-reporter)
 
 HTML reporter for Jasmine2 and Protractor that will include screenshots of each test if you want.
+This fork addresses a bug in the summary, where the total number of failed specs was incorrect when running a consolidated report with deeply nested suites.
+* Total Specs Executed: x
+* Total Specs Failed: y
+
 This work is inspired by:
 * [Protractor Jasmine 2 Screenshot Reporter](https://github.com/mlison/protractor-jasmine2-screenshot-reporter) from [@mslison](https://github.com/mlison)
 * [Jasmine Reporters](https://github.com/larrymyers/jasmine-reporters) from [@larrymyers](https://github.com/larrymyers)

@@ -1,14 +1,14 @@
 {
-  "name": "protractor-jasmine2-html-reporter",
-  "version": "0.0.7",
-  "description": "HTML reporter for Jasmine and Protractor. It will generate beautiful and useful report for your web apps.",
+  "name": "protractor-jasmine2-html-reporter-with-total-failed",
+  "version": "0.0.8",
+  "description": "HTML reporter for Jasmine and Protractor. It generates a HTML report with screenshots and  also includes a summary with total failed specs and total failed suites.",
   "main": "index.js",
   "scripts": {
     "test": "protractor protractor.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kenzitron/protractor-jasmine2-html-reporter",
+    "url": "https://github.com/Mobiletainment/protractor-jasmine2-html-reporter.git",
     "postinstall": "./node_modules/protractor/bin/webdriver-manager update"
   },
   "keywords": [
